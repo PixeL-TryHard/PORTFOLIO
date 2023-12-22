@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Suraj Jha website</title>
+    <script src="https://kit.fontawesome.com/a74cf99d4d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logos.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="ani">
+                <div class="header-text">
+                    <p>Hello World</p>
+                    <h1>I'm <span>Suraj</span> Jha</h1>
+                    <h2>Full Stacks <span>Developer</span></h2>
+                </div>
+                <div class="animation">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------about---------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/iimg.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Suraj Jha. Currently pursuing a B.Tech degree in Computer Science and Engineering at VIT Bhopal, University. I developed a solid foundation in technical skills, including Java, UX/UI design, and proficiency in tools such as Adobe XD, Figma and Tableau.
+
+I bring a unique blend of creativity and analytical thinking to the field.
+
+I want to pursue my career in Development, specially about the Frontend and Backend Development.
+
+Co-curricular wise, I love to play Guitar as it helps me meditate and ease my mind.
+
+</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Data Structures and Algorithms</li>
+			    <li><span>UX/UI</span><br>User Experience and Design</li>
+                            <li><span>Web Development</span><br>Mobile application Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Fresher</li>
+				    <li> Dream Internship at ET Media Labs<span> (On Campus Placements)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech CSE from VIT Bhopal University</li>
+                            <li><span>2020</span><br>Schooling from Indirapuram Public School </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------services------------------------------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>Developing Both Backend and Frontend components and developing and deploying a complete web application with the help of technologies like JavaScript, SQL, HTML, CSS.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-laptop-code"></i>
+                    <h2>DSA</h2>
+                    <p> 100+ Questions solved on Leetcode. 
+		        Proficient in Java, Python and C++ language. 
+                      
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Proficient in Tableau Software as worked in Externship to create Data Visualized Projects like Swasth and Suicide Analysis.
+                    </p>
+                </div>
+<div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI</h2>
+                    <p>Proficient in Figma and Adobe XD while created many frontend application. Most viewed was NAVIGATOR.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------portfolio---------------------------------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/PG1.jpg">
+                    <div class="layer">
+                        <h3>NAVIGATOR</h3>
+                        <p>This is UI of an App to be used for Navigation.
+Once AI is activated person can see a passage to required location from within the camera. 
+This App will help you reach destinations, even reach untraceable locations on Google Maps precisely. 
+
+                        </p>
+                        <a href="https://www.figma.com/proto/Arzn6XNsKE79JS9jXd4Vt2/Untitled?type=design&node-id=86-3&t=tBELQKscpjhWgpNy-1&scaling=min-zoom&page-id=86%3A2&starting-point-node-id=86%3A3&mode=design"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work.jpg">
+                    <div class="layer">
+                        <h3>Swasth</h3>
+                        <p>A Health Matrix portal for the people of Anganwadis across the country.
+                            Displays the current conditions of children and women in Angawadis,
+                            how the diseases impact them and predict the upcoming impact of any 
+			    disease and provide them with easy and immediate treatment.
+                        </p>
+                        <a href="https://pixel-tryhard.github.io/Swasth/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/jj.jpg">
+                    <div class="layer">
+                        <h3>Suicide Analysis</h3>
+                        <p>
+A descriptive study for Suicide happening in India (2001-12).  This was a part of Externship Project and we used technologies such as Tableau, HTML, BootStrapping for final preview.
+                           
+                        </p>
+                        <a href="https://pixel-tryhard.github.io/Website/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-- ------------------------contact-------------------------------------------------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>surajjha30jan@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8368145382</p>
+                <div class="social-icons">
+                    <a href="https://github.com/PixeL-TryHard"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/suraj30/"><i class="fa-brands fa-linkedin"></i></a>
+ 
+                </div>
+                <a href="https://drive.google.com/drive/folders/1o8T_Dy-JJ3c7Uli2r-eYU6cYOUJFqSn4?usp=share_link" download class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Suraj.</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+
+	<script src = "https://smtpjs.com/v3/smtp.js">  </script>
+	<script>
+		function sendEmail(){
+			Email.send({
+    			Host : "smtp.gmail.com",
+    			Username : "username",
+    			Password : "password123",
+    			To : 'emailid@gmail.com',
+    			From : document.getElementById("email").value,
+    			Subject : "New Contact form Query",
+    			Body : "And this is the body"
+			}).then(
+  			message => alert(message)
+			);
+		}
+	</script>
+
+</body>
+
+</html>
